@@ -22,10 +22,10 @@ while rodando:
             rodando = False
 
 #cor da tela de fundo em RGB
-tela.fill(50,100,200)
+tela.fill((50,100,200))
 
 #atualiza a tela
-pygame,display.flip()
+pygame.display.flip()
 
 #finaliza o jogo
 pygame.quit()
