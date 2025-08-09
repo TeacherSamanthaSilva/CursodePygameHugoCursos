@@ -8,7 +8,7 @@ largura = 800
 altura = 600
 
 #cria a tela
-tela = pygame.display.set_mode(largura,altura)
+tela = pygame.display.set_mode((largura,altura))
 pygame.display.set_caption("Meu primeiro jogo")
 
 #controle do loop principal
