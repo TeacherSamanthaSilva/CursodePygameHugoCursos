@@ -25,6 +25,8 @@ while rodando:
             rodando = False
     #quantidade de FPS que o jogo deve rodar
     relogio.tick(27)
+    #criando uma superficie 
+    sup = pygame.Surface()
 
 #cor da tela de fundo em RGB
 tela.fill((50,100,200))
